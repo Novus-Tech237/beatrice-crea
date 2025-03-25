@@ -5,7 +5,7 @@ import { ArrowBigDown } from "lucide-react";
 const BeatriceHeader = () => {
     return (
         <section>
-            <div className="flex items-center justify-center h-screen flex-col ">
+            <div className="flex items-center justify-center md:h-full h-[30rem] flex-col ">
                 <motion.div
 
                     className="flex flex-col items-center justify-center flex-grow md:w-[1200px]">

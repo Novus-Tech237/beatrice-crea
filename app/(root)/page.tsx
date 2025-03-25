@@ -14,14 +14,14 @@ const HomePage = () => {
     return ( 
         <div className="flex flex-col min-h-screen">
             <div className="h-auto">
-                <div className="hero_area relative">
+                <div className="hero_area relative bg-pink-950/50">
                     <Image
                         alt="beatrice-creation"
                         src={"/7.jpg"}
                         fill
                         className="absolute inset-0 w-full h-full object-cover -z-10"
                     />
-                    <div className="absolute top-0 left-0 w-full p-2 pt-8">
+                    <div className="relative z-20">
                         <NavigationBar />
                     </div>
                     <BeatriceHeader/>

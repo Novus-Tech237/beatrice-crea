@@ -75,7 +75,6 @@
   height: 98vh;
   position: relative; /* To position child elements correctly */
   overflow: hidden; /* Hide any overflow */
-  background-color: rgba(58, 18, 18, 0.685)
 }
 
 
